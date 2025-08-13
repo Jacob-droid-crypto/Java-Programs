@@ -9,7 +9,6 @@ public class StringArray {
 				System.out.println("Enter the number of columns:");
 				int cols = sc1.nextInt();
 				String [][] matrix = new String[rows][cols];
-				String [][] copy = new String[rows][cols];
 				Scanner sc2 = new Scanner(System.in);
 				System.out.println("Enter the elements of the matrix:");
 				for(int i=0;i<rows;i++) {
@@ -32,4 +31,5 @@ public class StringArray {
 
 
 	
+
 
