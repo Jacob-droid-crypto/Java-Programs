@@ -6,7 +6,7 @@ public class ArrayCopy {
 		System.out.println("Enter the number of rows: ");
 		int rows = sc.nextInt();
 		Scanner sc1 = new Scanner(System.in);
-		System.out.println("enter the number of columns:");
+		System.out.println("Enter the number of columns:");
 		int cols = sc1.nextInt();
 		int [][] matrix = new int[rows][cols];
 		int [][] copy = new int[rows][cols];
